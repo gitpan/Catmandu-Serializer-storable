@@ -7,7 +7,6 @@ WriteMakefile
   'VERSION_FROM' => 'lib/Catmandu/Serializer/storable.pm',
   'PREREQ_PM' => {
                    'Catmandu' => '0.8006',
-                   'Data::MessagePack' => '0.39',
                    'MIME::Base64' => 0,
                    'Storable' => 0,
                    'Test::Exception' => 0,
