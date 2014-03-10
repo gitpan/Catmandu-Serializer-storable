@@ -17,7 +17,7 @@ name: Catmandu-Serializer-storable
 provides:
   Catmandu::Serializer::storable:
     file: lib/Catmandu/Serializer/storable.pm
-    version: 0.0101
+    version: 0.0102
 requires:
   Catmandu: 0.8006
   MIME::Base64: 0
@@ -28,4 +28,4 @@ resources:
   homepage: https://github.com/LibreCat/Catmandu-Serializer-storable
   license: http://dev.perl.org/licenses/
   repository: https://github.com/LibreCat/Catmandu-Serializer-storable.git
-version: 0.0101
+version: 0.0102

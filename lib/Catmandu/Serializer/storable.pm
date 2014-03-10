@@ -11,11 +11,11 @@ Catmandu::Serializer::storable - A Catmandu::Serializer backend using Storable
 
 =head1 VERSION
 
-Version 0.0101
+Version 0.0102
 
 =cut
 
-our $VERSION = '0.0101';
+our $VERSION = '0.0102';
 
 sub serialize {
     MIME::Base64::encode(Storable::nfreeze($_[1]));
